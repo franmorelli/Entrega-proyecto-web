@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos</title>
+    <link rel="stylesheet" href="Estiloproyectoauto.css">
+    <script src="codigo.js"></script>
+</head>
+
+<body>
+    <div class="contenedor2" style="margin-left: 250px;">
+        <h1>DATOS PERSONALES</h1>
+
+        <form>
+            <p>Nombre: <input type="text" id="nombre" placeholder="indique su nombre"></p>
+            <p>Apellido: <input type="text" id="apellido" placeholder="indique su apellido"></p>
+            <p>Edad: <input type="number" id="edad" placeholder="indique su edad"></p>
+            <p>Telefono: <input type="number" id="telefono" placeholder="indique su telefono"></p>
+            <p>Email: <input type="email" id="email" placeholder="indique su email"></p>
+            <p>Fecha de nacimiento: <input type="date" id="fecha" placeholder="indique su fecha de nacimiento"></p>
+        </form>
+        <br>
+
+        <button onclick="afiliar()">Afiliar</button>
+        <p id="resultado3"></p>
+    </div>
+
+
+    <div class="contenedor2">
+
+        <h1 class="nuevo">COTIZAR AUTO</h1>
+        <form>
+            <p>MARCA <select id="marca">
+                    <option value="1">Ferrari</option>
+                    <option value="2">Ford</option>
+                    <option value="3">Chevrolet</option>
+                    <option value="4">Toyota</option>
+                </select>
+            </p>
+
+            <p>TIPO DE AUTO<select id="tipo">
+                    <option value="1">Deportivo</option>
+                    <option value="2">Camioneta</option>
+                    <option value="3">Sedan</option>
+                    <option value="4">Coope</option>
+                </select>
+            </p>
+        </form>
+        <br>
+
+        <button onclick="cotizar()">COTIZAR</button>
+        <p id="resultado4"></p>
+
+    </div>
+
+
+
+</body>
+
+</html>
