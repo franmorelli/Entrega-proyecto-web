@@ -24,7 +24,7 @@ function validar() {
     var clave = document.getElementById("clave").value;
 
     if (usuario == "francisco" && clave == "1234") {
-        window.location.href = "/autos.html";
+        window.location.href = "autos.html";
     } else {
         alert("usuario invalido");
     }
